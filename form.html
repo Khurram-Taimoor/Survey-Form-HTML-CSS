@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank You For Taking Your Time To Give Us FeedBack</p>
+</header>
+<!--survey form-->
+<form id="survey-form">
+<div class="form-group">
+<label for="name" id="name-label">Name</label>
+<input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+<div class="form-group">
+<label for="email" id="email-label">Email</label>
+<input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+<label for="age" id="number-label">Age</label>
+<input type="number" name="age" id="number" min="1" max="99" placeholder="Enter Your Age">
+<<!--dropdown menu-->
+<label for="occupation">What Is Your Profession</label>
+<select name="occupation" id="dropdown">
+
+<option selected disabled value>Select Your Role</option>
+<option value="student">Student</option>
+<option value="Bussinessmen">Bussinessmen</option>
+<option value="Private-job">Private Job</option>
+<option value="prefer-to-not-say">Prefer Not To Say</option>
+<option value="other">Other</option>
+</select>
+<label for="rating">What Is Your Recomendation?</label>
+<div class="radio-group">
+<input type="radio" name="rating" id="never" value="never"><label for="never"> Never
+<input type="radio" name="rating" id="maybe" value="maybe"><label for="maybe"> Maybe 
+<input type="radio" name="rating" id="likely" value="likely"><label for="likely"> Likely 
+<input type="radio" name="rating" id="definitely" value="definitely"><label for="definitely">Definitely
+</div>
+<button id="submit" type="submit">Submit</button>
+</form>
+</main>
+</body>
+
+</html>

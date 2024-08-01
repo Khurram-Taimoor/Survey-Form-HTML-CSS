@@ -1,0 +1,270 @@
+body {
+
+    background-image: url('data:image/jpeg;base64,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'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+
+    padding: 0;
+    border: none;
+    outline: none;
+    /* background-color: #eee; */
+    background-color:transparent;
+    box-shadow: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    max-height: 200px;
+}
+
+main {
+    background-color:cyan;
+    padding:40px;
+    display: block;
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #191516;
+    font-weight: bold;
+}
+
+form {
+        flex-direction: column;
+    font-size: 22px;
+}
+
+#name, #email, #number, #dropdown {
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#dropdown, option {
+    outline
+}
+
+select {
+    padding: 7px;
+}
+
+textarea {
+    display: block;
+}
+
+.form-group {
+    padding: 8px 0;
+    margin-bottom: 2px;
+}
+
+.form-group>label {
+    margin-bottom: 8px;
+    color: #191516;
+    display: block;
+    font-weight: 500;
+}
+
+[type="checkbox"]+label>span, [type="radio"]+label {
+    font-size: 16px;
+}
+
+[type="checkbox"], [type="radio"] {
+    margin: 0 8px 0 0;
+    box-sizing: border-box;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+/*hide the original checkbox and radio button*/
+
+[type="checkbox"] , [type="radio"] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.radio-group, .checkbox-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+[type="radio"]+label {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+[type="checkbox"]+label {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* this is the custom box for the checkbox*/
+
+[type="checkbox"]+label::before {
+    content: '';
+    min-width: 18px;
+    min-height: 18px;
+    position: absolute;
+    left: -26px;
+    border-radius: 3px;
+    /* top: 5px; */
+    background-color: #eee;
+    transition: all 0.4s;
+}
+
+[type="checkbox"]+label svg {
+    position: absolute;
+    width: 28px;
+    left: -31px;
+    top: -5px;
+}
+
+/* this is the polyline for the checkmark svg */
+
+[type="checkbox"]+label svg polyline {
+    stroke: white;
+    stroke-width: 8;
+    fill: none;
+    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
+    transition: stroke-dashoffset 0.4s;
+}
+
+/* change the color of custom checkbox when the original checkbox is in checked state */
+
+[type="checkbox"]:checked+label::before {
+    background-color: #191516;
+}
+
+/* setting stroke-dashoffset to 0 will reveal the hidden checkmark */
+
+[type="checkbox"]:checked+label svg polyline {
+    stroke-dashoffset: 0;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    resize: none;
+    padding: 4px;
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+}
+
+button {
+    width: 100%;
+    display: block;
+    height: 40px;
+    background-color: #191516;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+/* custom circle for radio button*/
+[type="radio"]+label::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: #eee;
+    left: -27px;
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    transition: all 0.4s;
+}
+
+/* fill circle with inset shadow when it is selected*/
+[type="radio"]:checked+label::before {
+    box-shadow: inset 0 0 0 6px #191516;
+}
+
+
+@media (max-width: 540px) {
+ main {
+        max-width: 380px;
+    }
+}
+@media (max-width: 460px) {
+    main {
+        max-width: 280px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    #description {
+        font-size: 15px;
+    }
+    form {
+        font-size: 18px;
+    }
+    #name, #email, #number, #dropdown, textarea {
+        font-size: 15px;
+    }
+    [type="radio"]+label, [type="checkbox"]+label>span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+ main {
+        max-width: 260px;
+        padding: 10px 30px 30px 40px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    #description {
+        font-size: 12px;
+    }
+    form {
+        font-size: 15px;
+    }
+    #name, #email, #number, #dropdown, textarea {
+        font-size: 12px;
+    }
+    [type="radio"]+label, [type="checkbox"]+label>span {
+        font-size: 12px;
+    }
+    button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+ main {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 280px) {
+ main {
+        max-width: 180px;
+    }
+}
